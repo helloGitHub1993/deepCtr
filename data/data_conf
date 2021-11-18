@@ -1,0 +1,17 @@
+{"index":"2","name":"ret_num","operator":"bucketized_column","args":[1,7,14,28,51,93,182]}
+{"index":"3","name":"cmt_num","operator":"bucketized_column","args":[0,5,11,23,46,85,213]}
+{"index":"4","name":"like_num","operator":"bucketized_column","args":[25,156,305,564,1054,1977,4436]}
+{"index":"5","name":"act_num","operator":"bucketized_column","args":[103,845,1776,3570,7295,15074,41058]}
+{"index":"6","name":"interact_num","operator":"bucketized_column","args":[27,172,337,623,1166,2178,4835]}
+{"index":"7","name":"expo_num","operator":"bucketized_column","args":[3122,22206,43620,80353,152241,304841,674689]}
+{"index":"8","name":"recent_ret_num","operator":"bucketized_column","args":[1,2,3,5]}
+{"index":"9","name":"recent_cmt_num","operator":"bucketized_column","args":[1,2,3,5]}
+{"index":"10","name":"recent_like_num","operator":"bucketized_column","args":[0,1,2,4,8,19]}
+{"index":"11","name":"recent_act_num","operator":"bucketized_column","args":[0,3,7,13,25,50,112]}
+{"index":"12","name":"recent_real_expo_num","operator":"bucketized_column","args":[5,31,59,106,189,345,705]}
+{"index":"13","name":"effect_weight","operator":"bucketized_column","args":[183,582,720]}
+{"index":"14","name":"author_followers_num","operator":"bucketized_column","args":[23,359,1347,7060,26601,84734,150817]}
+{"index":"15","name":"click_rate","operator":"bucketized_column","args":[0.03307223,0.04127803,0.04488169,0.04887651,0.0561194,0.06399258,0.07689174]}
+{"index":"16","name":"interact_rate","operator":"bucketized_column","args":[0.00259469,0.00511113,0.00683527,0.00923957,0.01210499,0.01632438,0.02571366]}
+{"index":"17","name":"click_rate_recent","operator":"bucketized_column","args":[0.06122449,0.11563169,0.13043478,0.14666667,0.16666667,0.19742489,0.25]}
+{"index":"18","name":"interact_rate_recent","operator":"bucketized_column","args":[0.001,0.002,0.00564972,0.01146789,0.0194552,0.03211009,0.06451613]}
