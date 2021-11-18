@@ -1,0 +1,25 @@
+1.说明
+	本代码用于深度模型训练，整体思路是先将训练的模型参数可视化，然后转成可视化文件，再在引擎中手动构建模型，用于线上服务
+2.代码结构
+	oasis_deep_ctr
+	|
+	|----model:存放模型代码
+	|    |----dcn.py:dcn模型描述文件
+	|
+	|----layer:存放层代码
+	|    |----common_layer.py:层描述文件
+	|
+	|----model_convert:模型转换
+	|    |----parse_ckpt_model.py:解析checkpoint文件的脚本，将ckpt文件转换成可视化权重
+	|    |----mod_conv.py:将模型权重转换成引擎可用的权重文件
+	|    |----cal.py:用python实现的DCN模型，用于一致性验证
+	|    |----auc.py:计算模型AUC
+	|
+	|----checkpoint:保存训练的模型
+	|
+	|----data:存放训练样本
+	|    |----parse_rule.py:根据conf文件对原始样本进行处理(目前只实现了枚举与桶分两中功能)，并对负样本采样
+	|    |----data_conf:特征配置文件
+	|    |----percentile.py:分位点统计脚本
+	|    
+	|----dcn_test.py:模型训练启动脚本
